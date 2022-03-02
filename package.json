@@ -1,0 +1,20 @@
+{
+  "name": "clean_code_architecture",
+  "version": "1.0.0",
+  "description": "This project is a study about clean code and clean architecture",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "author": "Marcos Guilherme Moreira de Assis",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1"
+  }
+}
